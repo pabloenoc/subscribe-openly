@@ -25,6 +25,14 @@
             <h2 id="how-to">How To</h2>
             <p>To use Subscribe Openly, add the following to any links to your web feed on your site:</p>
             <pre>https://subscribeopenly.net/subscribe/?url=YOUR_FEED_URL</pre>
+            <p>Subscribe Openly doesn't validate or automatically find web feeds, it only generates a link for subscribing to a web feed.</p>
+            <p>You should make sure the link you provide to Subscribe Openly points to a page with an <a href="https://blog.jim-nielsen.com/2021/automatically-discoverable-rss-feeds/">automatically discoverable web feed</a>, or a specific feed URL.</p>
+            <h2 id="order">Choose a Preferred Reader</h2>
+            <p>If you have a preferred reader among those listed on Subscribe Openly, you can move the reader to first in the list of links on your page. To do so, use the following syntax:</p>
+            <pre>https://subscribeopenly.net/subscribe/?url=FEED_URL&prefer=reader_name</pre>
+            <p>Where <code>reader_name</code> is the name of a reader supported by Subscribe Openly, in all lowercase, and without spaces. Here is an example:</p>
+            <pre>https://subscribeopenly.net/subscribe/?url=https://jamesg.blog&prefer=newsblur</pre>
+            <p><a href="https://subscribeopenly.net/subscribe/?url=https://jamesg.blog&prefer=newsblur">Open the example with Newsblur as the preferred reader.</a></p>
             <h2 id="contribute">Contribute</h2>
             <p>This project is <a href="https://github.com/capjamesg/subscribe-openly">open source on GitHub</a>. Contributions are welcome!</p>
             <h2 id="acknowledgements">Acknowledgements</h2>
